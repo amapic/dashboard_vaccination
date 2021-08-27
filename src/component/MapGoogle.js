@@ -138,9 +138,9 @@ export default function MapGoogle({ region_excluded = [], region_included = [], 
     keys = keys.filter(item => region_included.includes(item))
   }
 
-
+  // ApiKey à rajouter
   return (<
-    LoadScript googleMapsApiKey="AIzaSyBHNfjuxMNcHVdkLgHctexkayh5tAMOWjA" >
+    LoadScript googleMapsApiKey="" >
 
     <
       GoogleMap mapContainerStyle={
